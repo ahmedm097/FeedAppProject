@@ -20,7 +20,35 @@ The backend is built using Spring Boot and provides RESTful APIs for user authen
 
 #### Directory Structure
 
-FeedAppBackEnd/ ├── .github/ │ └── workflows/ │ └── ci.yml ├── .mvn/ │ └── wrapper/ │ └── maven-wrapper.properties ├── src/ │ ├── main/ │ │ ├── java/ │ │ │ └── com/bptn/feedApp/ │ │ │ ├── controller/ │ │ │ ├── exception/ │ │ │ ├── filter/ │ │ │ ├── jpa/ │ │ │ ├── provider/ │ │ │ ├── repository/ │ │ │ ├── security/ │ │ │ └── service/ │ │ └── resources/ │ │ ├── application.yml │ │ └── config.yml │ └── test/ │ └── java/ │ └── com/bptn/feedApp/ │ └── controller/ ├── mvnw ├── mvnw.cmd └── pom.xml
+FeedAppBackEnd/
+├── .github/
+│   └── workflows/
+│       └── ci.yml
+├── .mvn/
+│   └── wrapper/
+│       └── maven-wrapper.properties
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/bptn/feedApp/
+│   │   │       ├── controller/
+│   │   │       ├── exception/
+│   │   │       ├── filter/
+│   │   │       ├── jpa/
+│   │   │       ├── provider/
+│   │   │       ├── repository/
+│   │   │       ├── security/
+│   │   │       └── service/
+│   │   └── resources/
+│   │       ├── application.yml
+│   │       └── config.yml
+│   └── test/
+│       └── java/
+│           └── com/bptn/feedApp/
+│               └── controller/
+├── mvnw
+├── mvnw.cmd
+└── pom.xml
 
 ### FeedAppFrontEnd
 
@@ -33,7 +61,35 @@ The frontend is built using React and provides a user-friendly interface for int
 
 #### Directory Structure
 
-FeedAppFrontEnd/ ├── src/ │ ├── appRoutes/ │ │ └── AppRoutes.js │ ├── assets/ │ │ └── images/ │ ├── components/ │ │ ├── AddFeed.js │ │ ├── FeedCard.js │ │ ├── MyProfile.js │ │ ├── UpdateBasicProfile.js │ │ └── UpdatePublicProfile.js │ ├── context/ │ ├── pages/ │ │ ├── App/ │ │ │ ├── CompleteProfile.js │ │ │ ├── Dashboard.js │ │ │ ├── MyFeeds.js │ │ │ └── Profile.js │ │ └── User/ │ │ ├── Login.js │ │ ├── Register.js │ │ └── VerifyEmail.js │ ├── util/ │ │ └── ApiUtil.js │ ├── index.js │ └── index.css ├── package.json └──
+FeedAppFrontEnd/
+├── src/
+│   ├── appRoutes/
+│   │   └── AppRoutes.js
+│   ├── assets/
+│   │   └── images/
+│   ├── components/
+│   │   ├── AddFeed.js
+│   │   ├── FeedCard.js
+│   │   ├── MyProfile.js
+│   │   ├── UpdateBasicProfile.js
+│   │   └── UpdatePublicProfile.js
+│   ├── context/
+│   ├── pages/
+│   │   ├── App/
+│   │   │   ├── CompleteProfile.js
+│   │   │   ├── Dashboard.js
+│   │   │   ├── MyFeeds.js
+│   │   │   └── Profile.js
+│   │   └── User/
+│   │       ├── Login.js
+│   │       ├── Register.js
+│   │       └── VerifyEmail.js
+│   ├── util/
+│   │   └── ApiUtil.js
+│   ├── index.js
+│   └── index.css
+├── package.json
+└── README.md
 
 ## Getting Started
 
@@ -45,7 +101,7 @@ FeedAppFrontEnd/ ├── src/ │ ├── appRoutes/ │ │ └── AppRo
 
 ### Backend Setup
 
-1. Navigate to the `FeedAppBackEnd` directory.
+1. Navigate to the FeedAppBackEnd directory.
 2. Run the following command to build the project:
 ./mvnw clean install
 
@@ -75,9 +131,6 @@ Features
 Technologies Used
 
 Backend: Spring Boot, Spring Security, JWT, JPA, PostgreSQL
-Frontend: React, Axios, Formik, Yup
+Frontend: React, TailwindCSS
 
-License
-
-This project is licensed under the MIT License. 
 
