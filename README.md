@@ -2,6 +2,19 @@
 
 Feed App is a social media platform that allows users to post content, interact with one another, and manage user authentication. The project includes features such as user registration, login, posting, commenting, and secure session management with JWT tokens.
 
+## Screenshots
+
+<img width="1202" alt="Screenshot 2025-01-29 at 2 41 52 PM" src="https://github.com/user-attachments/assets/1beb08aa-e5b4-45eb-8455-b98ac55cabc1" />
+
+<img width="1107" alt="Screenshot 2025-01-29 at 2 41 04 PM" src="https://github.com/user-attachments/assets/a732db00-c77f-4903-a3ad-fd0c94291f24" />
+
+<img width="1384" alt="Screenshot 2025-01-29 at 2 40 35 PM" src="https://github.com/user-attachments/assets/d00c543f-b835-40ee-857c-a4d6334650d4" />
+
+<img width="921" alt="Screenshot 2025-01-29 at 2 41 16 PM" src="https://github.com/user-attachments/assets/206cafe9-95f7-4e08-974a-0bc8262330fe" />
+
+<img width="791" alt="Screenshot 2025-01-29 at 2 41 27 PM" src="https://github.com/user-attachments/assets/95bb2d9b-c801-468f-9eb3-15940790a18b" />
+
+
 ## Project Structure
 
 The project is divided into two main directories:
