@@ -20,6 +20,7 @@ The backend is built using Spring Boot and provides RESTful APIs for user authen
 
 #### Directory Structure
 
+```
 FeedAppBackEnd/
 ├── .github/
 │   └── workflows/
@@ -49,7 +50,7 @@ FeedAppBackEnd/
 ├── mvnw
 ├── mvnw.cmd
 └── pom.xml
-
+```
 ### FeedAppFrontEnd
 
 The frontend is built using React and provides a user-friendly interface for interacting with the application. It includes the following key components:
@@ -61,6 +62,7 @@ The frontend is built using React and provides a user-friendly interface for int
 
 #### Directory Structure
 
+```
 FeedAppFrontEnd/
 ├── src/
 │   ├── appRoutes/
@@ -90,6 +92,7 @@ FeedAppFrontEnd/
 │   └── index.css
 ├── package.json
 └── README.md
+```
 
 ## Getting Started
 
