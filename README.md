@@ -127,6 +127,7 @@ Features
 Technologies Used
 
 Backend: Spring Boot, Spring Security, JWT, JPA, PostgreSQL
+
 Frontend: React, TailwindCSS
 
 
