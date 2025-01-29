@@ -47,8 +47,6 @@ FeedAppFrontEnd/ ├── src/ │ ├── appRoutes/ │ │ └── AppRo
 
 1. Navigate to the `FeedAppBackEnd` directory.
 2. Run the following command to build the project:
-
-````sh
 ./mvnw clean install
 
 3. Run the following command to start the backend server:
@@ -81,7 +79,5 @@ Frontend: React, Axios, Formik, Yup
 
 License
 
-This project is licensed under the MIT License. ```
+This project is licensed under the MIT License. 
 
-
-````
