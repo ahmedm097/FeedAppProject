@@ -102,22 +102,15 @@ FeedAppFrontEnd/
 ### Backend Setup
 
 1. Navigate to the FeedAppBackEnd directory.
-2. Run the following command to build the project:
-./mvnw clean install
+2. Run the following command to build the project: ./mvnw clean install
 
-3. Run the following command to start the backend server:
-
-./mvnw spring-boot:run
+3. Run the following command to start the backend server: ./mvnw spring-boot:run
 
 Frontend Setup
 1. Navigate to the FeedAppFrontEnd directory.
-2. Run the following command to install the dependencies:
+2. Run the following command to install the dependencies: npm install
 
-npm install
-
-3. Run the following command to start the frontend development server:
-
-npm start
+3. Run the following command to start the frontend development server: npm start
 
 Features
 
