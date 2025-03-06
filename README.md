@@ -122,13 +122,14 @@ FeedAppFrontEnd/
 
 3. Run the following command to start the backend server: ./mvnw spring-boot:run
 
-Frontend Setup
+### Frontend Setup
+
 1. Navigate to the FeedAppFrontEnd directory.
 2. Run the following command to install the dependencies: npm install
 
 3. Run the following command to start the frontend development server: npm start
 
-Features
+### Features
 
  - User Registration: Users can register by providing their details.
  - User Login: Users can log in using their credentials.
@@ -137,7 +138,7 @@ Features
  - Profile Management: Users can update their profile information.
  - Secure Session Management: JWT tokens are used to manage user sessions securely.
 
-Technologies Used
+### Technologies Used
 
 Backend: Spring Boot, Spring Security, JWT, JPA, PostgreSQL
 
